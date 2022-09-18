@@ -58,24 +58,24 @@ There are three kinds of examples:
 
 ## Examples: Runnable Applications
 
-Additional examples may be found under [src/main/](src/main/java/io/confluent/examples/streams/).
+Additional examples may be found under [src/main/](src/main/java/br/com/pedrobelmino/examples/streams/).
 
 | Application Name            | Concepts used                                            | Java 8+ | Java 7+ | Scala |
 | --------------------------- | -------------------------------------------------------- | ------- | ------- | ----- |
-| WordCount                   | DSL, aggregation, stateful                               | [Java 8+ example](src/main/java/io/confluent/examples/streams/WordCountLambdaExample.java) | | [Scala Example](src/main/scala/io/confluent/examples/streams/WordCountScalaExample.scala) |
-| MapFunction                 | DSL, stateless transformations, `map()`                  | [Java 8+ example](src/main/java/io/confluent/examples/streams/MapFunctionLambdaExample.java) | | [Scala Example](src/main/scala/io/confluent/examples/streams/MapFunctionScalaExample.scala) |
-| SessionWindows              | Sessionization of user events, user behavior analysis    | | [Java 7+ example](src/main/java/io/confluent/examples/streams/SessionWindowsExample.java)
-| GlobalKTable                | `join()` between `KStream` and `GlobalKTable`            | [Java 8+ example](src/main/java/io/confluent/examples/streams/GlobalKTablesExample.java) | | |
-| GlobalStore                 | "join" between `KStream` and `GlobalStore`               | [Java 8+ example](src/main/java/io/confluent/examples/streams/GlobalStoresExample.java) | | |
-| PageViewRegion              | `join()` between `KStream` and `KTable`                  | [Java 8+ example](src/main/java/io/confluent/examples/streams/PageViewRegionLambdaExample.java) | [Java 7+ example](src/main/java/io/confluent/examples/streams/PageViewRegionExample.java) | |
-| PageViewRegionGenericAvro   | Working with data in Generic Avro format                 | [Java 8+ example](src/main/java/io/confluent/examples/streams/PageViewRegionLambdaExample.java) | [Java 7+ example](src/main/java/io/confluent/examples/streams/PageViewRegionExample.java) | |
-| WikipediaFeedSpecificAvro   | Working with data in Specific Avro format                | [Java 8+ example](src/main/java/io/confluent/examples/streams/WikipediaFeedAvroLambdaExample.java) | [Java 7+ example](src/main/java/io/confluent/examples/streams/WikipediaFeedAvroExample.java) | |
-| SecureKafkaStreams          | Secure, encryption, client authentication                | | [Java 7+ example](src/main/java/io/confluent/examples/streams/SecureKafkaStreamsExample.java) | |
-| Sum                         | DSL, stateful transformations, `reduce()`                | [Java 8+ example](src/main/java/io/confluent/examples/streams/SumLambdaExample.java) | | |
-| WordCountInteractiveQueries | Interactive Queries, REST, RPC                           | [Java 8+ example](src/main/java/io/confluent/examples/streams/interactivequeries/WordCountInteractiveQueriesExample.java) | | |
-| KafkaMusic                  | Interactive Queries, State Stores, REST API              | [Java 8+ example](src/main/java/io/confluent/examples/streams/interactivequeries/kafkamusic/KafkaMusicExample.java) | | |
-| ApplicationReset            | Application Reset Tool `kafka-streams-application-reset` | [Java 8+ example](src/main/java/io/confluent/examples/streams/ApplicationResetExample.java) | | |
-| Microservice                | Microservice ecosystem, state stores, dynamic routing, joins, filtering, branching, stateful operations | [Java 8+ example](src/main/java/io/confluent/examples/streams/microservices) | | |
+| WordCount                   | DSL, aggregation, stateful                               | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/WordCountLambdaExample.java) | | [Scala Example](src/main/scala/io/confluent/examples/streams/WordCountScalaExample.scala) |
+| MapFunction                 | DSL, stateless transformations, `map()`                  | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/MapFunctionLambdaExample.java) | | [Scala Example](src/main/scala/io/confluent/examples/streams/MapFunctionScalaExample.scala) |
+| SessionWindows              | Sessionization of user events, user behavior analysis    | | [Java 7+ example](src/main/java/br/com/pedrobelmino/examples/streams/SessionWindowsExample.java)
+| GlobalKTable                | `join()` between `KStream` and `GlobalKTable`            | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/GlobalKTablesExample.java) | | |
+| GlobalStore                 | "join" between `KStream` and `GlobalStore`               | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/GlobalStoresExample.java) | | |
+| PageViewRegion              | `join()` between `KStream` and `KTable`                  | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/PageViewRegionLambdaExample.java) | [Java 7+ example](src/main/java/br/com/pedrobelmino/examples/streams/PageViewRegionExample.java) | |
+| PageViewRegionGenericAvro   | Working with data in Generic Avro format                 | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/PageViewRegionLambdaExample.java) | [Java 7+ example](src/main/java/br/com/pedrobelmino/examples/streams/PageViewRegionExample.java) | |
+| WikipediaFeedSpecificAvro   | Working with data in Specific Avro format                | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/WikipediaFeedAvroLambdaExample.java) | [Java 7+ example](src/main/java/br/com/pedrobelmino/examples/streams/WikipediaFeedAvroExample.java) | |
+| SecureKafkaStreams          | Secure, encryption, client authentication                | | [Java 7+ example](src/main/java/br/com/pedrobelmino/examples/streams/SecureKafkaStreamsExample.java) | |
+| Sum                         | DSL, stateful transformations, `reduce()`                | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/SumLambdaExample.java) | | |
+| WordCountInteractiveQueries | Interactive Queries, REST, RPC                           | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/interactivequeries/WordCountInteractiveQueriesExample.java) | | |
+| KafkaMusic                  | Interactive Queries, State Stores, REST API              | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/interactivequeries/kafkamusic/KafkaMusicExample.java) | | |
+| ApplicationReset            | Application Reset Tool `kafka-streams-application-reset` | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/ApplicationResetExample.java) | | |
+| Microservice                | Microservice ecosystem, state stores, dynamic routing, joins, filtering, branching, stateful operations | [Java 8+ example](src/main/java/br/com/pedrobelmino/examples/streams/microservices) | | |
 
 
 <a name="examples-unit-tests"/>
@@ -334,14 +334,14 @@ You can now run the application examples as follows:
 ```shell
 # Run an example application from the standalone jar. Here: `WordCountLambdaExample`
 $ java -cp target/kafka-streams-examples-7.1.1-standalone.jar \
-  io.confluent.examples.streams.WordCountLambdaExample
+  br.com.pedrobelmino.examples.streams.WordCountLambdaExample
 ```
 
 The application will try to read from the specified input topic (in the above example it is ``streams-plaintext-input``),
 execute the processing logic, and then try to write back to the specified output topic (in the above example it is ``streams-wordcount-output``).
 In order to observe the expected output stream, you will need to start a console producer to send messages into the input topic
 and start a console consumer to continuously read from the output topic. More details in how to run the examples can be found
-in the [java docs](src/main/java/io/confluent/examples/streams/WordCountLambdaExample.java#L31) of each example code.
+in the [java docs](src/main/java/br/com/pedrobelmino/examples/streams/WordCountLambdaExample.java#L31) of each example code.
 
 If you want to turn on log4j while running your example application, you can edit the
 [log4j.properties](src/main/resources/log4j.properties) file and then execute as follows:
@@ -350,7 +350,7 @@ If you want to turn on log4j while running your example application, you can edi
 # Run an example application from the standalone jar. Here: `WordCountLambdaExample`
 $ java -cp target/kafka-streams-examples-7.1.1-standalone.jar \
   -Dlog4j.configuration=file:src/main/resources/log4j.properties \
-  io.confluent.examples.streams.WordCountLambdaExample
+  br.com.pedrobelmino.examples.streams.WordCountLambdaExample
 ```
 
 Keep in mind that the machine on which you run the command above must have access to the Kafka/ZooKeeper clusters you
